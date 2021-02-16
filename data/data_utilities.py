@@ -5,3 +5,5 @@ import logging as log
 from typing import Any, Dict, List, Tuple
 
 
+def foo():
+    return True
