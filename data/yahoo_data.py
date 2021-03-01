@@ -1,13 +1,9 @@
-import fin as fin
-import numpy as np
 import pandas as pd
 import logging as log
 
 from datetime import datetime as dt
 from yahoo_fin import options as yo
-from typing import Any, Dict, List, Tuple
 
-import data.data.data_utilities as d
 import core.constants as c
 
 log.basicConfig(format='%(levelname)s:%(message)s', level=log.INFO)
